@@ -21,4 +21,25 @@
 # screen -S ubuntu18to20
 ```
 
-4. 
+4. Setelah **_screen_** dibuat, jalankan tools yang sudah diekstrak perintah dibawah ini:
+
+```
+# ./ubuntu18to20
+```
+**Catatan:** _*perlu diperhatikan bahwa proses diatas akan membuat layanan melakukan restart beberapa kali dan jika koneksi SSH terputus Anda dapat masuk lagi ke sesi screen dengan perintah dibawah._
+
+```
+# screen -r ubuntu18to20
+```
+
+5. Proses Konversi akan membutuhkan waktu sekitar 30 Menit dan nantinya jika koneksi terputus setelah konversi selesai, silakan login kembali dilanjutkan menjalan perintah dibawah ini untuk memantau proses penyelesaiannya:
+```
+# ./ubuntu18to20 --status
+
+atau
+
+# ./ubuntu18to20 --monitor
+```
+
+
+6.    
