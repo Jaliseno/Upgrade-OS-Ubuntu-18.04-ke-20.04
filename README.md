@@ -32,7 +32,7 @@
 # screen -r ubuntu18to20
 ```
 
-5. Proses Konversi akan membutuhkan waktu sekitar 30 Menit dan nantinya jika koneksi terputus setelah konversi selesai, silakan login kembali dilanjutkan menjalan perintah dibawah ini untuk memantau proses penyelesaiannya:
+5. Proses Konversi akan membutuhkan waktu sekitar 30 Menit, nantinya jika koneksi terputus setelah konversi selesai, silakan login kembali untuk memantau proses penyelesaiannya dengan menjalankan perintah dibawah ini :
 ```
 # ./ubuntu18to20 --status
 
