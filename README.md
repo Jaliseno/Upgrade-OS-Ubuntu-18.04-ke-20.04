@@ -52,7 +52,7 @@ You can remove this message from the /etc/motd file.
 ```
 
 ## Troubleshooting
-1. Jika Anda menemukan pesan Error di bawah ini saat menjalankan tools dist-upgrade silakan Anda ikuti saran yang tersedia untuk menjalankan perintah _# plesk installer stop_  
+1. Jika Anda menemukan pesan Error di bawah ini saat menjalankan tools dist-upgrade silakan Anda ikuti saran yang tersedia untuk menjalankan perintah _plesk installer stop_  
 ```
 Required pre-conversion condition check if Plesk installer is in progress not met:
 The conversion process cannot continue because Plesk Installer is working.
