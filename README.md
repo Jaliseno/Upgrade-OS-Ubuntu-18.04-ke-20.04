@@ -74,3 +74,6 @@ Please wait until it finishes or call 'plesk installer stop' to abort it.
 <br/><br/>
 **Peringatan:** _**Perintah Revert tidak dapat digunakan untuk membatalkan perubahan setelah distupgrade dilakukan karena paket yang disediakan oleh Ubuntu 20 sudah terpasang. Periksa status proses konversi dan pantau kemajuannya._
 
+<br/><br/>
+
+Demikian informasi yang dapat kami sampaikan pada knowledge base ini. Apabila Anda mengalami kendala saat proses dist-upgrade atau memerlukan bantuan lainnya, jangan ragu untuk menghubungi tim support kami melalui tiket atau email ke info@cloudkilat.com. Kami siap membantu Anda. Terima kasih.
