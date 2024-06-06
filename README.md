@@ -59,7 +59,7 @@ The conversion process cannot continue because Plesk Installer is working.
 Please wait until it finishes or call 'plesk installer stop' to abort it.
 ```
 
-2. Jika setelah proses dist-upgrade selesai dan website menampilkan error 504, kami menyarankan Anda untuk melakukan penyesuaian/repair  dengan menjalankan perintah berikut:
+2. Jika proses dist-upgrade selesai dan website menampilkan error 504, kami menyarankan Anda untuk melakukan penyesuaian/repair dengan menjalankan perintah berikut:
 ``` 
 #  plesk repair web
 
