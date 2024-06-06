@@ -87,5 +87,7 @@ atau secara spesifik
 **Peringatan:** _**Perintah Revert tidak dapat digunakan untuk membatalkan perubahan setelah distupgrade dilakukan karena paket yang disediakan oleh Ubuntu 20 sudah terpasang. Periksa status proses konversi dan pantau kemajuannya._
 
 <br/><br/>
+**Referensi:** _* [dist-upgrade-plesk]([https://github.com/Jaliseno/Text-Editor-Nano](https://support.plesk.com/hc/en-us/articles/12377714344983-How-to-perform-dist-upgrade-procedure-on-Linux-server-with-Plesk))._ 
+<br/><br/>
 
 Demikian informasi yang dapat kami sampaikan pada knowledge base ini. Apabila Anda mengalami kendala saat proses dist-upgrade atau memerlukan bantuan lainnya, jangan ragu untuk menghubungi tim support kami melalui tiket atau email ke info@cloudkilat.com. Kami siap membantu Anda. Terima kasih.
