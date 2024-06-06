@@ -70,6 +70,7 @@ Please wait until it finishes or call 'plesk installer stop' to abort it.
 ```
 # ./ubuntu18to20 --revert
 ```
-**Catatan:** _*perintah diatas berguna untuk mengembalikan Plesk ke operasi normal. Tools ini akan mencoba membatalkan beberapa perubahan yang telah dibuat dan memulai ulang layanan Plesk. Setelah akar masalahnya teratasi, coba lakukan konversi lagi._
+**Catatan:** _*perintah diatas berguna untuk mengembalikan Plesk ke operasi normal. Tools ini akan mencoba membatalkan beberapa perubahan yang telah dibuat dan memulai ulang layanan Plesk. Setelah akar masalahnya teratasi, coba lakukan konversi lagi._ 
+<br/><br/>
 **Peringatan:** _**Perintah Revert tidak dapat digunakan untuk membatalkan perubahan setelah distupgrade dilakukan karena paket yang disediakan oleh Ubuntu 20 sudah terpasang. Periksa status proses konversi dan pantau kemajuannya._
 
