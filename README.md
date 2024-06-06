@@ -58,15 +58,27 @@ Required pre-conversion condition check if Plesk installer is in progress not me
 The conversion process cannot continue because Plesk Installer is working.
 Please wait until it finishes or call 'plesk installer stop' to abort it.
 ```
-2.  Jika proses terhenti sebelum reboot pertama, mulai ulang dengan perintah:
+
+2. Jika setelah proses dist-upgrade selesai dan website menampilkan error 504, kami menyarankan Anda untuk melakukan penyesuaian/repair  dengan menjalankan perintah berikut:
+``` 
+#  plesk repair web
+
+atau secara spesifik
+
+# plesk repair web [nama_website]
+```
+
+3.  Jika proses terhenti sebelum reboot pertama, mulai ulang dengan perintah:
 ```
 # ./ubuntu18to20 --resume
 ```
-3. Jika terhenti setelah reboot pertama, mulai ulang proses dengan menjalankan:
+
+4. Jika terhenti setelah reboot pertama, mulai ulang proses dengan menjalankan:
 ```
 # systemctl restart plesk-dist-upgrader
 ```
-4. Jika operasi gagal sebelum distupgrade dilakukan selama tahap konversi, jalankan perintah berikut:
+
+5. Jika operasi gagal sebelum distupgrade dilakukan selama tahap konversi, jalankan perintah berikut:
 ```
 # ./ubuntu18to20 --revert
 ```
