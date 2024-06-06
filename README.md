@@ -1,1 +1,1 @@
-# Upgrade-OS-Ubuntu-18.04-ke-20.04
+Halo Rekan CloudKilat ada informasi terbaru dari plesk nih, mereka akan terus menghadirkan versi baru Plesk Obsidian sesuai dengan jadwal yang telah ditetapkan. Versi baru ini akan mencakup fitur-fitur baru, pembaruan fungsional, dan pembaruan keamanan, selama tidak bertentangan dengan perangkat lunak yang disediakan oleh vendor OS. 
