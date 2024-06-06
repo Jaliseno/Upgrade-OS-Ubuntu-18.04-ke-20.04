@@ -51,3 +51,25 @@ You can remove this message from the /etc/motd file.
 ===============================================================================
 ```
 
+## Troubleshooting
+1. Jika Anda menemukan pesan Error di bawah ini saat menjalankan tools dist-upgrade silakan Anda ikuti saran yang tersedia untuk menjalankan perintah _# plesk installer stop_  
+```
+Required pre-conversion condition check if Plesk installer is in progress not met:
+The conversion process cannot continue because Plesk Installer is working.
+Please wait until it finishes or call 'plesk installer stop' to abort it.
+```
+2.  Jika proses terhenti sebelum reboot pertama, mulai ulang dengan perintah:
+```
+# ./ubuntu18to20 --resume
+```
+3. Jika terhenti setelah reboot pertama, mulai ulang proses dengan menjalankan:
+```
+# systemctl restart plesk-dist-upgrader
+```
+4. Jika operasi gagal sebelum distupgrade dilakukan selama tahap konversi, jalankan perintah berikut:
+```
+# ./ubuntu18to20 --revert
+```
+**Catatan:** _*perintah diatas berguna untuk mengembalikan Plesk ke operasi normal. Tools ini akan mencoba membatalkan beberapa perubahan yang telah dibuat dan memulai ulang layanan Plesk. Setelah akar masalahnya teratasi, coba lakukan konversi lagi._
+**Peringatan:** _**Perintah Revert tidak dapat digunakan untuk membatalkan perubahan setelah distupgrade dilakukan karena paket yang disediakan oleh Ubuntu 20 sudah terpasang. Periksa status proses konversi dan pantau kemajuannya._
+
