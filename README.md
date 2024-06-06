@@ -40,6 +40,14 @@ atau
 
 # ./ubuntu18to20 --monitor
 ```
+**Catatan:** _*Sebagai alternatif, status dapat dipantau dengan memeriksa file log di /etc/motd. Setelah proses selesai, pesan berikut akan terlihat:_
 
+```
+===============================================================================
+Message from the Plesk dist-upgrader tool:
 
-6.    
+The server has been upgraded to Ubuntu 20.
+You can remove this message from the /etc/motd file.
+===============================================================================
+```
+
