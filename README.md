@@ -2,7 +2,6 @@
 
 ## Persiapan
 1. Lakukan backup secara menyeluruh sebelum Anda melakukan dist-upgrade, adapun untuk langkah backup Anda dapat memilih menu **Tools & Settings** >> **Backup Manager** >> Apabila Belum memiliki jadwal backup rutin Anda dapat memilih **Create a Backup** >> Pilih sesuai kebutuhan >> Pilih **Ok** >> Setelah proses backup selesai silakan Anda Download hasil backup ke local komputer Anda.
-**Catatan:** _*apabila ragu Anda dapat melakukan request ke tim support CloudKilat untuk melakukan snapshoot sebelum proses dist-upgrade dilakukan_
 2. Pastikan Versi Plesk sudah disupport oleh versi OS Ubuntu 20.04 (_Plesk Obsidian 18.0.61.5_), untuk melihat versi Plesk Anda dapat menjalan perintah **_plesk -v_**. Apabila versi plesk masih belum disupport berikut knowlage base untuk upgrade versi plesk panel (_tautan KB Upgrade versi plesk_)
 3. Pastikan versi PHP websute Anda sudah mensupport PHP versi 7.1 keatas dan apabila belum kami sarankan untuk melakukan upgrade versi PHP website Anda, untuk detailnya silakan menghubungi pihak developer website Anda.
 
